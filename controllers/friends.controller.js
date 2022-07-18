@@ -6,6 +6,7 @@ const postFriends = (req, res) => {
       error: "Missing Friend Name",
     });
   }
+
   const newFriend = {
     id: model.length,
     name: req.body.name,
